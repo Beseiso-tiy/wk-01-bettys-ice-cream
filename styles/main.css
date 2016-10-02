@@ -72,7 +72,7 @@ nav dd {
 #header, #footer {
   font-size: large;
   padding: 0.3em;
-  background: #BCCE98;
+  background: #ECFDA0;
 }
 
 header img{
@@ -80,7 +80,7 @@ header img{
   height: 20%;
   vertical-align: baseline;
   border: 1px solid #666;
-  background: #999;
+  background: #ECFDA0;
   position: relative; top: 0; left: 0;
 }
 
@@ -110,15 +110,15 @@ header div{
 
 
 #left {
-  background: #DAE9BC;
+  background: #CAFDA0;
 }
 
 #right {
-  background: #F7FDEB;
+  background: #CAFDA0;
 }
 
 #center {
-  background: #fff;
+  background: #ECFDA0;
 }
 
 #container .column {
