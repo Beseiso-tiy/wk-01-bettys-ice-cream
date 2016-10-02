@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Betty's Ice Cream Shop</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="./styles/footer.css">
+  <link rel="stylesheet" href="./styles/header.css">
+</head>
+
+<body>
+
+ <header id="header">
+   <p>Betty's Ice Cream Shop</p>
+   <!-- Use position to relative and absolute to position images on top of one another -->
+   <div style="position: relative; left: 0; top: 0;">
+     <img src="images/bananas-split-fruit.jpg" alt="Betty's Famous Bannana Split" style="position: relative; top: 0; left: 0;"/>
+     <img class="logo" src="images/betty_logo.jpg" alt="Betty's Famous Bannana Split" style="position: absolute; top: 265px; left: 100px;"/>
+   </div>
+ </header>
+
+ <div id="center">
+   <main id="center-format" class="column">
+     <article>
+       <div>
+         <h1>Betty's Story</h1>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+       <div>
+           <h2>Heading 2</h2>
+             <p>Paragraph 2</p>
+       </div>
+     </article>
+   </main>
+
+   <nav id="left" class="column">
+     <h3>Left heading</h3>
+
+     <dl>
+       <dt><a href="https://en.wikipedia.org/wiki/Bastani_Sonnati">Bastani Sonnati</a></dt>
+       <dd>Cal: 253 Sugar</dd>
+       <dt><a href="https://en.wikipedia.org/wiki/Blue_Moon_(ice_cream)">Blue Moon </a></dt>
+         <dd>Cal: 267 Sugar</dd>
+       <dt><a href="https://en.wikipedia.org/wiki/Butter_Brickle">Butter Brickle</a>
+       </dt>
+         <dd>Cal: 357 Sugar</dd>
+       <dt><a href="https://en.wikipedia.org/wiki/Butter_pecan">Butter pecan</a>
+       </dt>
+        <dd>Cal: 453 Sugar</dd>
+       <dt><a href="https://en.wikipedia.org/wiki/Chocolate_chip_cookie_dough_ice_cream">Chocolate Cookie Dough</a></li>
+       </dt>
+         <dd>Cal: 390 Sugar</dd>
+   </nav>
+
+   <div id="right" class="column">
+     <h3>Right heading</h3>
+     <p><script>generateText(1)</script></p>
+   </div>
+
+ </div>
+
+ <div id="footer-wrapper">
+   <footer id="footer"><p>Hours: Open 24 hours every day | Office: (801)123-1234 | info@bettysice.com</p></footer>
+ </div>
+
+</body>
+
+</html>
