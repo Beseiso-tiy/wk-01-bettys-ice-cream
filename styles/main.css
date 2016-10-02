@@ -102,6 +102,13 @@ header div{
   left: 100px;
 }
 
+.social-thumbnail{
+  height: 40px;
+  width: 40px;
+  object-fit: contain
+  }
+
+
 #left {
   background: #DAE9BC;
 }
