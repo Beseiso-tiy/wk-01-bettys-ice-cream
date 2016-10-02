@@ -81,6 +81,13 @@ header img{
   vertical-align: baseline;
   border: 1px solid #666;
   background: #999;
+  position: relative; top: 0; left: 0;
+}
+
+header div{
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
 .logo{
@@ -90,6 +97,9 @@ header img{
   vertical-align: baseline;
   border: 1px solid #666;
   background: #999;
+  position: absolute;
+  top: 265px;
+  left: 100px;
 }
 
 #left {
